@@ -8,8 +8,8 @@
   <identification>
     <creator type="composer">Bach, Johann Sebastian</creator>
     <encoding>
-      <software>MuseScore 3.3.3</software>
-      <encoding-date>2019-12-14</encoding-date>
+      <software>MuseScore 3.3.4</software>
+      <encoding-date>2019-12-16</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="yes" value="yes"/>
@@ -42,7 +42,7 @@
     <lyric-font font-family="FreeSerif" font-size="11"/>
     </defaults>
   <credit page="1">
-    <credit-words default-x="1142.86" default-y="1534.67" justify="right" valign="bottom" font-size="12">Bach, Johann Sebastian</credit-words>
+    <credit-words default-x="1142.86" default-y="1509.67" justify="right" valign="bottom" font-size="12">Bach, Johann Sebastian</credit-words>
     </credit>
   <credit page="1">
     <credit-words default-x="600" default-y="1640" justify="center" valign="top" font-size="24">Auf daß wir also allzugleich</credit-words>
@@ -113,7 +113,7 @@
             <left-margin>66.30</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <top-system-distance>175.33</top-system-distance>
+          <top-system-distance>200.33</top-system-distance>
           </system-layout>
         </print>
       <attributes>
@@ -368,7 +368,7 @@
             <left-margin>26.47</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <system-distance>105.76</system-distance>
+          <system-distance>150.00</system-distance>
           </system-layout>
         </print>
       <note default-x="101.78" default-y="-25.00">
@@ -612,13 +612,13 @@
         </note>
       </measure>
     <measure number="10" width="238.44">
-      <print new-system="yes">
+      <print new-page="yes">
         <system-layout>
           <system-margins>
             <left-margin>26.47</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <system-distance>105.76</system-distance>
+          <top-system-distance>70.00</top-system-distance>
           </system-layout>
         </print>
       <note default-x="90.47" default-y="-15.00">
@@ -1667,7 +1667,7 @@
         </note>
       </measure>
     <measure number="10" width="238.44">
-      <print new-system="yes">
+      <print new-page="yes">
         <staff-layout number="1">
           <staff-distance>65.00</staff-distance>
           </staff-layout>
@@ -2744,7 +2744,7 @@
         </note>
       </measure>
     <measure number="10" width="238.44">
-      <print new-system="yes">
+      <print new-page="yes">
         <staff-layout number="1">
           <staff-distance>65.00</staff-distance>
           </staff-layout>
@@ -3484,7 +3484,7 @@
       <figured-bass>
         <figure>
           <figure-number>6</figure-number>
-          <extend type="stop" />
+          <extend type="start" />
           </figure>
         </figured-bass>
       <note default-x="10.00" default-y="-330.00">
@@ -3499,6 +3499,11 @@
         <stem>down</stem>
         <beam number="1">begin</beam>
         </note>
+      <figured-bass>
+        <figure>
+          <extend type="stop" />
+          </figure>
+        </figured-bass>
       <note default-x="32.62" default-y="-325.00">
         <pitch>
           <step>F</step>
@@ -4158,7 +4163,7 @@
         </note>
       </measure>
     <measure number="10" width="238.44">
-      <print new-system="yes">
+      <print new-page="yes">
         <staff-layout number="1">
           <staff-distance>65.00</staff-distance>
           </staff-layout>
