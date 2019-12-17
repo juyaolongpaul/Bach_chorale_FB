@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>Allein Gott in der Höh sei Ehr</title>
+            </titleStmt>
+            <pubStmt />
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application isodate="2019-12-17T15:37:57" version="2.2.0-dev-991564e">
+                    <name>Verovio</name>
+                    <p>Transcoded from Humdrum</p>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <workList>
+            <work>
+                <title xml:id="title-L3" analog="humdrum:OTL" type="main">Allein Gott in der Höh sei Ehr</title>
+                <composer analog="humdrum:COM" xml:id="person-L1">Bach, Johann Sebastian</composer>
+            </work>
+        </workList>
+        <extMeta>
+            <frames xmlns="http://www.humdrum.org/ns/humxml">
+                <metaFrame n="0" token="!!!COM: Bach, Johann Sebastian" xml:id="L1">
+                    <frameInfo>
+                        <startTime float="0" />
+                        <frameType>reference</frameType>
+                        <referenceKey>COM</referenceKey>
+                        <referenceValue>Bach, Johann Sebastian</referenceValue>
+                    </frameInfo>
+                </metaFrame>
+                <metaFrame n="1" token="!!!OMV: Allein Gott in der H&amp;ouml;h sei Ehr" xml:id="L2">
+                    <frameInfo>
+                        <startTime float="0" />
+                        <frameType>reference</frameType>
+                        <referenceKey>OMV</referenceKey>
+                        <referenceValue>Allein Gott in der H&amp;ouml;h sei Ehr</referenceValue>
+                    </frameInfo>
+                </metaFrame>
+                <metaFrame n="2" token="!!!OTL: Allein Gott in der H&amp;ouml;h sei Ehr" xml:id="L3">
+                    <frameInfo>
+                        <startTime float="0" />
+                        <frameType>reference</frameType>
+                        <referenceKey>OTL</referenceKey>
+                        <referenceValue>Allein Gott in der H&amp;ouml;h sei Ehr</referenceValue>
+                    </frameInfo>
+                </metaFrame>
+                <metaFrame n="92" token="!!!system-decoration: s1,s2,s3,s4" xml:id="L93">
+                    <frameInfo>
+                        <startTime float="40" />
+                        <frameType>reference</frameType>
+                        <referenceKey>system-decoration</referenceKey>
+                        <referenceValue>s1,s2,s3,s4</referenceValue>
+                    </frameInfo>
+                </metaFrame>
+            </frames>
+        </extMeta>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv xml:id="mdiv-0000000119266640">
+                <score xml:id="score-0000001334201230">
+                    <scoreDef xml:id="scoredef-0000000790775719">
+                        <staffGrp xml:id="staffgrp-0000001278622032" bar.thru="true">
+                            <staffDef xml:id="staffdef-0000000530842950" n="1" lines="5">
+                                <label xml:id="label-L7F5">Voice</label>
+                                <labelAbbr xml:id="labelabbr-L8F5">V</labelAbbr>
+                                <clef xml:id="clef-L9F5" shape="G" line="2" />
+                                <keySig xml:id="keysig-L10F5" sig="3s" />
+                                <meterSig xml:id="metersig-L11F5" count="4" unit="4" />
+                            </staffDef>
+                            <staffDef xml:id="staffdef-0000000139267262" n="2" lines="5">
+                                <label xml:id="label-L7F4">Voice</label>
+                                <labelAbbr xml:id="labelabbr-L8F4">V</labelAbbr>
+                                <clef xml:id="clef-L9F4" shape="G" line="2" />
+                                <keySig xml:id="keysig-L10F4" sig="3s" />
+                                <meterSig xml:id="metersig-L11F4" count="4" unit="4" />
+                            </staffDef>
+                            <staffDef xml:id="staffdef-0000000346129442" n="3" lines="5">
+                                <label xml:id="label-L7F3">Voice</label>
+                                <labelAbbr xml:id="labelabbr-L8F3">V</labelAbbr>
+                                <clef xml:id="clef-L9F3" shape="G" line="2" dis="8" dis.place="below" />
+                                <keySig xml:id="keysig-L10F3" sig="3s" />
+                                <meterSig xml:id="metersig-L11F3" count="4" unit="4" />
+                            </staffDef>
+                            <staffDef xml:id="staffdef-0000001078222767" n="4" lines="5">
+                                <label xml:id="label-L7F1">Voice</label>
+                                <labelAbbr xml:id="labelabbr-L8F1">V</labelAbbr>
+                                <clef xml:id="clef-L9F1" shape="F" line="4" />
+                                <keySig xml:id="keysig-L10F1" sig="3s" />
+                                <meterSig xml:id="metersig-L11F1" count="4" unit="4" />
+                            </staffDef>
+                        </staffGrp>
+                        <pgHead xml:id="pghead-0000002029788043">
+                            <rend xml:id="rend-0000001394594621" halign="center" valign="middle">
+                                <rend xml:id="rend-0000000017384357" fontsize="large">Allein Gott in der Höh sei Ehr</rend>
+                                <lb xml:id="lb-0000001195940660" /> 
+<lb xml:id="lb-0000001418925234" /> </rend>
+                            <rend xml:id="rend-0000000162462321" halign="right" valign="bottom" fontsize="small">Johann Sebastian Bach</rend>
+                        </pgHead>
+                    </scoreDef>
+                    <section xml:id="section-L4F1">
+                        <pb xml:id="pb-0000001361769448" />
+                        <measure xml:id="measure-L1">
+                            <staff xml:id="staff-0000000886909376" n="1">
+                                <layer xml:id="layer-L4F5N1" n="1">
+                                    <beam xml:id="beam-L12F5-L13F5">
+                                        <note xml:id="note-L12F5" dur="8" oct="4" pname="a" accid.ges="n" />
+                                        <note xml:id="note-L13F5" dur="8" oct="4" pname="b" accid.ges="n" />
+                                    </beam>
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001743627611" n="2">
+                                <layer xml:id="layer-L4F4N1" n="1">
+                                    <note xml:id="note-L12F4" dur="4" oct="4" pname="e" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000000956103612" n="3">
+                                <layer xml:id="layer-L4F3N1" n="1">
+                                    <beam xml:id="beam-L12F3-L13F3">
+                                        <note xml:id="note-L12F3" dur="8" oct="4" pname="c" accid.ges="s" />
+                                        <note xml:id="note-L13F3" dur="8" oct="4" pname="d" accid.ges="n" />
+                                    </beam>
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-0000001123450029" n="4">
+                                <layer xml:id="layer-L4F1N1" n="1">
+                                    <note xml:id="note-L12F1" dur="4" oct="2" pname="a" accid.ges="n" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-L14" n="2">
+                            <staff xml:id="staff-L14F5N1" n="1">
+                                <layer xml:id="layer-L14F5N1" n="1">
+                                    <note xml:id="note-L15F5" dur="4" oct="5" pname="c" accid.ges="s" />
+                                    <note xml:id="note-L17F5" dur="4" oct="5" pname="d" accid.ges="n" />
+                                    <note xml:id="note-L18F5" dur="4" oct="5" pname="e" accid.ges="n" />
+                                    <note xml:id="note-L20F5" dur="4" oct="5" pname="d" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L14F4N1" n="2">
+                                <layer xml:id="layer-L14F4N1" n="1">
+                                    <note xml:id="note-L15F4" dur="4" oct="4" pname="a" accid.ges="n" />
+                                    <note xml:id="note-L17F4" dur="4" oct="4" pname="a" accid.ges="n" />
+                                    <note xml:id="note-L18F4" dur="4" oct="4" pname="g" accid.ges="s" />
+                                    <beam xml:id="beam-L20F4-L21F4">
+                                        <note xml:id="note-L20F4" dur="8" oct="4" pname="f" accid.ges="s" />
+                                        <note xml:id="note-L21F4" dur="8" oct="4" pname="g" accid.ges="s" />
+                                    </beam>
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L14F3N1" n="3">
+                                <layer xml:id="layer-L14F3N1" n="1">
+                                    <note xml:id="note-L15F3" dur="4" oct="4" pname="e" accid.ges="n" />
+                                    <note xml:id="note-L17F3" dur="4" oct="4" pname="f" accid.ges="s" />
+                                    <beam xml:id="beam-L18F3-L19F3">
+                                        <note xml:id="note-L18F3" dur="8" oct="3" pname="b" accid.ges="n" />
+                                        <note xml:id="note-L19F3" dur="8" oct="4" pname="c" accid.ges="s" />
+                                    </beam>
+                                    <note xml:id="note-L20F3" dur="4" oct="4" pname="d" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L14F1N1" n="4">
+                                <layer xml:id="layer-L14F1N1" n="1">
+                                    <beam xml:id="beam-L15F1-L16F1">
+                                        <note xml:id="note-L15F1" dur="8" oct="3" pname="a" accid.ges="n" />
+                                        <note xml:id="note-L16F1" dur="8" oct="3" pname="g" accid.ges="s" />
+                                    </beam>
+                                    <note xml:id="note-L17F1" dur="4" oct="3" pname="f" accid.ges="s" />
+                                    <note xml:id="note-L18F1" dur="4" oct="3" pname="e" accid.ges="n" />
+                                    <note xml:id="note-L20F1" dur="4" oct="2" pname="b" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <harm xml:id="harm-L17F2" staff="4" tstamp="2.000000">
+                                <fb xml:id="fb-L17F2">
+                                    <f xml:id="f-L17F2"></f>
+                                </fb>
+                            </harm>
+                            <harm xml:id="harm-L20F2" staff="4" tstamp="4.000000">
+                                <fb xml:id="fb-L20F2">
+                                    <f xml:id="f-L20F2"></f>
+                                </fb>
+                            </harm>
+                            <harm xml:id="harm-L21F2" staff="4" tstamp="4.500000">
+                                <fb xml:id="fb-L21F2">
+                                    <f xml:id="f-L21F2"></f>
+                                </fb>
+                            </harm>
+                        </measure>
+                        <measure xml:id="measure-L22" n="3">
+                            <staff xml:id="staff-L22F5N1" n="1">
+                                <layer xml:id="layer-L22F5N1" n="1">
+                                    <note xml:id="note-L23F5" dur="4" oct="5" pname="c" accid.ges="s" />
+                                    <note xml:id="note-L25F5" dur="4" oct="4" pname="b" accid.ges="n" />
+                                    <note xml:id="note-L26F5" dur="4" oct="5" pname="c" accid.ges="s" />
+                                    <note xml:id="note-L27F5" dur="4" oct="5" pname="c" accid.ges="s" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L22F4N1" n="2">
+                                <layer xml:id="layer-L22F4N1" n="1">
+                                    <note xml:id="note-L23F4" dur="4" oct="4" pname="a" accid.ges="n" />
+                                    <note xml:id="note-L25F4" dur="4" oct="4" pname="g" accid.ges="s" />
+                                    <note xml:id="note-L26F4" dur="4" oct="4" pname="a" accid.ges="n" />
+                                    <note xml:id="note-L27F4" dur="4" oct="4" pname="e" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L22F3N1" n="3">
+                                <layer xml:id="layer-L22F3N1" n="1">
+                                    <note xml:id="note-L23F3" dur="4" oct="4" pname="e" accid.ges="n" />
+                                    <note xml:id="note-L25F3" dur="4" oct="4" pname="e" accid.ges="n" />
+                                    <note xml:id="note-L26F3" dur="4" oct="4" pname="e" accid.ges="n" />
+                                    <note xml:id="note-L27F3" dur="4" oct="3" pname="a" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L22F1N1" n="4">
+                                <layer xml:id="layer-L22F1N1" n="1">
+                                    <beam xml:id="beam-L23F1-L24F1">
+                                        <note xml:id="note-L23F1" dur="8" oct="3" pname="c" accid.ges="s" />
+                                        <note xml:id="note-L24F1" dur="8" oct="3" pname="d" accid.ges="n" />
+                                    </beam>
+                                    <note xml:id="note-L25F1" dur="4" oct="3" pname="e" accid.ges="n" />
+                                    <note xml:id="note-L26F1" dur="4" oct="2" pname="a" accid.ges="n" />
+                                    <beam xml:id="beam-L27F1-L28F1">
+                                        <note xml:id="note-L27F1" dur="8" oct="3" pname="a" accid.ges="n" />
+                                        <note xml:id="note-L28F1" dur="8" oct="3" pname="g" accid.ges="s" />
+                                    </beam>
+                                </layer>
+                            </staff>
+                            <fermata xml:id="fermata-L26F5" staff="1" startid="#note-L26F5" place="above" />
+                            <fermata xml:id="fermata-L26F4" staff="2" startid="#note-L26F4" place="above" />
+                            <fermata xml:id="fermata-L26F3" staff="3" startid="#note-L26F3" place="above" />
+                            <fermata xml:id="fermata-L26F1" staff="4" startid="#note-L26F1" place="above" />
+                            <harm xml:id="harm-L23F2" staff="4" tstamp="1.000000">
+                                <fb xml:id="fb-L23F2">
+                                    <f xml:id="f-L23F2"></f>
+                                </fb>
+                            </harm>
+                        </measure>
+                        <measure xml:id="measure-L29" n="4">
+                            <staff xml:id="staff-L29F5N1" n="1">
+                                <layer xml:id="layer-L29F5N1" n="1">
+                                    <note xml:id="note-L30F5" dur="4" oct="5" pname="c" accid.ges="s" />
+                                    <beam xml:id="beam-L32F5-L33F5">
+                                        <note xml:id="note-L32F5" dur="8" oct="4" pname="b" accid.ges="n" />
+                                        <note xml:id="note-L33F5" dur="8" oct="5" pname="c" accid.ges="s" />
+                                    </beam>
+                                    <beam xml:id="beam-L34F5-L35F5">
+                                        <note xml:id="note-L34F5" dur="8" oct="5" pname="d" accid.ges="n" />
+                                        <note xml:id="note-L35F5" dur="8" oct="5" pname="c" accid.ges="s" />
+                                    </beam>
+                                    <note xml:id="note-L36F5" dur="4" oct="4" pname="b" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L29F4N1" n="2">
+                                <layer xml:id="layer-L29F4N1" n="1">
+                                    <note xml:id="note-L30F4" dur="4" oct="4" pname="f" accid.ges="s" />
+                                    <beam xml:id="beam-L32F4-L33F4">
+                                        <note xml:id="note-L32F4" dur="8" oct="4" pname="f" accid.ges="s" />
+                                        <note xml:id="note-L33F4" dur="8" oct="4" pname="e" accid.ges="n" />
+                                    </beam>
+                                    <beam xml:id="beam-L34F4-L35F4">
+                                        <note xml:id="note-L34F4" dur="8" oct="4" pname="d" accid.ges="n" />
+                                        <note xml:id="note-L35F4" dur="8" oct="4" pname="e" accid.ges="n" />
+                                    </beam>
+                                    <note xml:id="note-L36F4" dur="4" oct="4" pname="e" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L29F3N1" n="3">
+                                <layer xml:id="layer-L29F3N1" n="1">
+                                    <note xml:id="note-L30F3" dur="2" oct="3" pname="a" accid.ges="n" />
+                                    <beam xml:id="beam-L34F3-L35F3">
+                                        <note xml:id="note-L34F3" dur="8" oct="3" pname="g" accid.ges="s" />
+                                        <note xml:id="note-L35F3" dur="8" oct="3" pname="a" accid.ges="n" />
+                                    </beam>
+                                    <note xml:id="note-L36F3" dur="4" oct="3" pname="g" accid.ges="s" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L29F1N1" n="4">
+                                <layer xml:id="layer-L29F1N1" n="1">
+                                    <beam xml:id="beam-L30F1-L31F1">
+                                        <note xml:id="note-L30F1" dur="8" oct="3" pname="f" accid.ges="s" />
+                                        <note xml:id="note-L31F1" dur="8" oct="3" pname="e" accid.ges="n" />
+                                    </beam>
+                                    <beam xml:id="beam-L32F1-L33F1">
+                                        <note xml:id="note-L32F1" dur="8" oct="3" pname="d" accid.ges="n" />
+                                        <note xml:id="note-L33F1" dur="8" oct="3" pname="c" accid.ges="s" />
+                                    </beam>
+                                    <beam xml:id="beam-L34F1-L35F1">
+                                        <note xml:id="note-L34F1" dur="8" oct="2" pname="b" accid.ges="n" />
+                                        <note xml:id="note-L35F1" dur="8" oct="2" pname="a" accid.ges="n" />
+                                    </beam>
+                                    <note xml:id="note-L36F1" dur="4" oct="2" pname="g" accid.ges="s" />
+                                </layer>
+                            </staff>
+                            <harm xml:id="harm-L32F2" staff="4" tstamp="2.000000">
+                                <fb xml:id="fb-L32F2">
+                                    <f xml:id="f-L32F2N1"></f>
+                                    <f xml:id="f-L32F2N2"></f>
+                                </fb>
+                            </harm>
+                            <harm xml:id="harm-L34F2" staff="4" tstamp="3.000000">
+                                <fb xml:id="fb-L34F2">
+                                    <f xml:id="f-L34F2"></f>
+                                </fb>
+                            </harm>
+                            <harm xml:id="harm-L36F2" staff="4" tstamp="4.000000">
+                                <fb xml:id="fb-L36F2">
+                                    <f xml:id="f-L36F2N1"></f>
+                                    <f xml:id="f-L36F2N2"></f>
+                                </fb>
+                            </harm>
+                        </measure>
+                        <measure xml:id="measure-L37" right="rptend">
+                            <staff xml:id="staff-L37F5N1" n="1">
+                                <layer xml:id="layer-L37F5N1" n="1">
+                                    <note xml:id="note-L38F5" dur="4" oct="4" pname="a" accid.ges="n" />
+                                    <note xml:id="note-L40F5" dur="4" oct="4" pname="b" accid.ges="n" />
+                                    <note xml:id="note-L43F5" dur="4" oct="4" pname="a" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L37F4N1" n="2">
+                                <layer xml:id="layer-L37F4N1" n="1">
+                                    <beam xml:id="beam-L38F4-L39F4">
+                                        <note xml:id="note-L38F4" dur="8" oct="4" pname="e" accid.ges="n" />
+                                        <note xml:id="note-L39F4" dur="8" oct="4" pname="a" accid.ges="n" />
+                                    </beam>
+                                    <note xml:id="note-L40F4" dur="4" oct="4" pname="g" accid.ges="s" />
+                                    <note xml:id="note-L43F4" dur="4" oct="4" pname="e" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L37F3N1" n="3">
+                                <layer xml:id="layer-L37F3N1" n="1">
+                                    <beam xml:id="beam-L38F3-L39F3">
+                                        <note xml:id="note-L38F3" dur="8" oct="4" pname="e" accid.ges="n" />
+                                        <note xml:id="note-L39F3" dur="8" oct="4" pname="c" accid.ges="s" />
+                                    </beam>
+                                    <beam xml:id="beam-L40F3-L42F3">
+                                        <note xml:id="note-L40F3" dur="16" oct="4" pname="d" accid.ges="n" />
+                                        <note xml:id="note-L41F3" dur="16" oct="4" pname="c" accid.ges="s" />
+                                        <note xml:id="note-L42F3" dur="8" oct="4" pname="d" accid.ges="n" />
+                                    </beam>
+                                    <note xml:id="note-L43F3" dur="4" oct="4" pname="c" accid.ges="s" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L37F1N1" n="4">
+                                <layer xml:id="layer-L37F1N1" n="1">
+                                    <beam xml:id="beam-L38F1-L39F1">
+                                        <note xml:id="note-L38F1" dur="8" oct="3" pname="c" accid.ges="s" />
+                                        <note xml:id="note-L39F1" dur="8" oct="2" pname="a" accid.ges="n" />
+                                    </beam>
+                                    <note xml:id="note-L40F1" dur="4" oct="3" pname="e" accid.ges="n" />
+                                    <note xml:id="note-L43F1" dur="4" oct="2" pname="a" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <fermata xml:id="fermata-L43F5" staff="1" startid="#note-L43F5" place="above" />
+                            <fermata xml:id="fermata-L43F4" staff="2" startid="#note-L43F4" place="above" />
+                            <fermata xml:id="fermata-L43F3" staff="3" startid="#note-L43F3" place="above" />
+                            <fermata xml:id="fermata-L43F1" staff="4" startid="#note-L43F1" place="above" />
+                            <harm xml:id="harm-L38F2" staff="4" tstamp="1.000000">
+                                <fb xml:id="fb-L38F2">
+                                    <f xml:id="f-L38F2"></f>
+                                </fb>
+                            </harm>
+                        </measure>
+                        <measure xml:id="measure-L44" n="5">
+                            <staff xml:id="staff-L44F5N1" n="1">
+                                <layer xml:id="layer-L44F5N1" n="1">
+                                    <note xml:id="note-L45F5" dur="4" oct="4" pname="a" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L44F4N1" n="2">
+                                <layer xml:id="layer-L44F4N1" n="1">
+                                    <note xml:id="note-L45F4" dur="4" oct="4" pname="e" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L44F3N1" n="3">
+                                <layer xml:id="layer-L44F3N1" n="1">
+                                    <note xml:id="note-L45F3" dur="4" oct="4" pname="c" accid.ges="s" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L44F1N1" n="4">
+                                <layer xml:id="layer-L44F1N1" n="1">
+                                    <note xml:id="note-L45F1" dur="4" oct="2" pname="a" accid.ges="n" />
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure xml:id="measure-L46" n="6">
+                            <staff xml:id="staff-L46F5N1" n="1">
+                                <layer xml:id="layer-L46F5N1" n="1">
+                                    <note xml:id="note-L47F5" dur="4" oct="4" pname="b" accid.ges="n" />
+                                    <note xml:id="note-L48F5" dur="4" oct="5" pname="c" accid.ges="s" />
+                                    <note xml:id="note-L50F5" dur="4" oct="5" pname="d" accid.ges="n" />
+                                    <note xml:id="note-L52F5" dur="4" oct="5" pname="c" accid.ges="s" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L46F4N1" n="2">
+                                <layer xml:id="layer-L46F4N1" n="1">
+                                    <note xml:id="note-L47F4" dur="4" oct="4" pname="e" accid.ges="n" />
+                                    <note xml:id="note-L48F4" dur="4" oct="4" pname="e" accid.ges="n" />
+                                    <beam xml:id="beam-L50F4-L51F4">
+                                        <note xml:id="note-L50F4" dur="8" oct="4" pname="d" accid.ges="n" />
+                                        <note xml:id="note-L51F4" dur="8" oct="4" pname="e" accid.ges="n" />
+                                    </beam>
+                                    <note xml:id="note-L52F4" dur="4" oct="4" pname="f" accid.ges="s" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L46F3N1" n="3">
+                                <layer xml:id="layer-L46F3N1" n="1">
+                                    <note xml:id="note-L47F3" dur="4" oct="3" pname="g" accid.ges="s" />
+                                    <note xml:id="note-L48F3" dur="4" oct="3" pname="a" accid="s" />
+                                    <note xml:id="note-L50F3" dur="4" oct="3" pname="b" accid.ges="n" />
+                                    <note xml:id="note-L52F3" dur="4" oct="3" pname="a" accid.ges="s" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L46F1N1" n="4">
+                                <layer xml:id="layer-L46F1N1" n="1">
+                                    <note xml:id="note-L47F1" dur="4" oct="3" pname="e" accid.ges="n" />
+                                    <beam xml:id="beam-L48F1-L49F1">
+                                        <note xml:id="note-L48F1" dur="8" oct="3" pname="d" accid.ges="n" />
+                                        <note xml:id="note-L49F1" dur="8" oct="3" pname="c" accid.ges="s" />
+                                    </beam>
+                                    <note xml:id="note-L50F1" dur="4" oct="2" pname="b" accid.ges="n" />
+                                    <beam xml:id="beam-L52F1-L53F1">
+                                        <note xml:id="note-L52F1" dur="8" oct="3" pname="e" accid.ges="n" />
+                                        <note xml:id="note-L53F1" dur="8" oct="3" pname="f" accid.ges="s" />
+                                    </beam>
+                                </layer>
+                            </staff>
+                            <harm xml:id="harm-L48F2" staff="4" tstamp="2.000000">
+                                <fb xml:id="fb-L48F2">
+                                    <f xml:id="f-L48F2N1"></f>
+                                    <f xml:id="f-L48F2N2"></f>
+                                </fb>
+                            </harm>
+                            <harm xml:id="harm-L52F2" staff="4" tstamp="4.000000">
+                                <fb xml:id="fb-L52F2">
+                                    <f xml:id="f-L52F2N1"></f>
+                                    <f xml:id="f-L52F2N2"></f>
+                                    <f xml:id="f-L52F2N3"></f>
+                                </fb>
+                            </harm>
+                        </measure>
+                        <sb xml:id="sb-0000000711006489" type="original" />
+                        <measure xml:id="measure-L54" n="7">
+                            <staff xml:id="staff-L54F5N1" n="1">
+                                <layer xml:id="layer-L54F5N1" n="1">
+                                    <note xml:id="note-L56F5" dur="4" oct="4" pname="b" accid.ges="n" />
+                                    <note xml:id="note-L58F5" dur="4" oct="5" pname="c" accid.ges="s" />
+                                    <note xml:id="note-L61F5" dur="4" oct="4" pname="b" accid.ges="n" />
+                                    <note xml:id="note-L62F5" dur="4" oct="4" pname="b" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L54F4N1" n="2">
+                                <layer xml:id="layer-L54F4N1" n="1">
+                                    <beam xml:id="beam-L56F4-L57F4">
+                                        <note xml:id="note-L56F4" dur="8" oct="4" pname="f" accid.ges="s" />
+                                        <note xml:id="note-L57F4" dur="8" oct="4" pname="e" accid.ges="n" />
+                                    </beam>
+                                    <note xml:id="note-L58F4" dur="8" oct="4" pname="e" accid.ges="n" />
+                                    <beam xml:id="beam-L59F4-L60F4">
+                                        <note xml:id="note-L59F4" dur="16" oct="4" pname="d" accid.ges="n" />
+                                        <note xml:id="note-L60F4" dur="16" oct="4" pname="c" accid.ges="s" />
+                                    </beam>
+                                    <note xml:id="note-L61F4" dur="4" oct="4" pname="d" accid.ges="n" />
+                                    <note xml:id="note-L62F4" dur="4" oct="4" pname="e" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L54F3N1" n="3">
+                                <layer xml:id="layer-L54F3N1" n="1">
+                                    <note xml:id="note-L56F3" dur="4" oct="3" pname="b" accid.ges="n" />
+                                    <note xml:id="note-L58F3" dur="4" oct="3" pname="a" accid="s" />
+                                    <note xml:id="note-L61F3" dur="4" oct="3" pname="f" accid.ges="s" />
+                                    <note xml:id="note-L62F3" dur="4" oct="3" pname="b" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L54F1N1" n="4">
+                                <layer xml:id="layer-L54F1N1" n="1">
+                                    <note xml:id="note-L56F1" dur="4" oct="3" pname="g" accid="n" />
+                                    <note xml:id="note-L58F1" dur="4" oct="3" pname="f" accid.ges="s" />
+                                    <note xml:id="note-L61F1" dur="4" oct="2" pname="b" accid.ges="n" />
+                                    <note xml:id="note-L62F1" dur="4" oct="3" pname="g" accid="s" />
+                                </layer>
+                            </staff>
+                            <fermata xml:id="fermata-L61F5" staff="1" startid="#note-L61F5" place="above" />
+                            <fermata xml:id="fermata-L61F4" staff="2" startid="#note-L61F4" place="above" />
+                            <fermata xml:id="fermata-L61F3" staff="3" startid="#note-L61F3" place="above" />
+                            <fermata xml:id="fermata-L61F1" staff="4" startid="#note-L61F1" place="above" />
+                            <harm xml:id="harm-L56F2" staff="4" tstamp="1.000000">
+                                <fb xml:id="fb-L56F2">
+                                    <f xml:id="f-L56F2"></f>
+                                </fb>
+                            </harm>
+                            <harm xml:id="harm-L57F2" staff="4" tstamp="1.500000">
+                                <fb xml:id="fb-L57F2">
+                                    <f xml:id="f-L57F2"></f>
+                                </fb>
+                            </harm>
+                            <harm xml:id="harm-L58F2" staff="4" tstamp="2.000000">
+                                <fb xml:id="fb-L58F2">
+                                    <f xml:id="f-L58F2N1"></f>
+                                    <f xml:id="f-L58F2N2"></f>
+                                </fb>
+                            </harm>
+                            <harm xml:id="harm-L62F2" staff="4" tstamp="4.000000">
+                                <fb xml:id="fb-L62F2">
+                                    <f xml:id="f-L62F2"></f>
+                                </fb>
+                            </harm>
+                        </measure>
+                        <measure xml:id="measure-L63" n="8">
+                            <staff xml:id="staff-L63F5N1" n="1">
+                                <layer xml:id="layer-L63F5N1" n="1">
+                                    <note xml:id="note-L64F5" dur="4" oct="5" pname="c" accid.ges="s" />
+                                    <note xml:id="note-L66F5" dur="4" oct="5" pname="d" accid.ges="n" />
+                                    <note xml:id="note-L67F5" dur="4" oct="5" pname="e" accid.ges="n" />
+                                    <note xml:id="note-L68F5" dur="4" oct="5" pname="d" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L63F4N1" n="2">
+                                <layer xml:id="layer-L63F4N1" n="1">
+                                    <note xml:id="note-L64F4" dur="4" oct="4" pname="e" accid.ges="n" />
+                                    <note xml:id="note-L66F4" dur="4" oct="4" pname="f" accid.ges="s" />
+                                    <note xml:id="note-L67F4" dur="4" oct="4" pname="g" accid.ges="s" />
+                                    <note xml:id="note-L68F4" dur="4" oct="4" pname="f" accid.ges="s" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L63F3N1" n="3">
+                                <layer xml:id="layer-L63F3N1" n="1">
+                                    <note xml:id="note-L64F3" dur="4" oct="3" pname="a">
+                                        <accid xml:id="accid-L64F3" accid="n" func="caution" />
+                                    </note>
+                                    <note xml:id="note-L66F3" dur="4" oct="3" pname="a" accid.ges="n" />
+                                    <note xml:id="note-L67F3" dur="4" oct="3" pname="b" accid.ges="n" />
+                                    <beam xml:id="beam-L68F3-L69F3">
+                                        <note xml:id="note-L68F3" dur="8" oct="3" pname="a" accid.ges="n" />
+                                        <note xml:id="note-L69F3" dur="8" oct="3" pname="b" accid.ges="n" />
+                                    </beam>
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L63F1N1" n="4">
+                                <layer xml:id="layer-L63F1N1" n="1">
+                                    <beam xml:id="beam-L64F1-L65F1">
+                                        <note xml:id="note-L64F1" dur="8" oct="3" pname="a">
+                                            <accid xml:id="accid-L64F1" accid="n" func="caution" />
+                                        </note>
+                                        <note xml:id="note-L65F1" dur="8" oct="3" pname="g" accid.ges="s" />
+                                    </beam>
+                                    <note xml:id="note-L66F1" dur="4" oct="3" pname="f" accid.ges="s" />
+                                    <note xml:id="note-L67F1" dur="4" oct="3" pname="e" accid.ges="n" />
+                                    <beam xml:id="beam-L68F1-L69F1">
+                                        <note xml:id="note-L68F1" dur="8" oct="3" pname="f" accid.ges="s" />
+                                        <note xml:id="note-L69F1" dur="8" oct="3" pname="g" accid.ges="s" />
+                                    </beam>
+                                </layer>
+                            </staff>
+                            <harm xml:id="harm-L66F2" staff="4" tstamp="2.000000">
+                                <fb xml:id="fb-L66F2">
+                                    <f xml:id="f-L66F2"></f>
+                                </fb>
+                            </harm>
+                            <harm xml:id="harm-L68F2" staff="4" tstamp="4.000000">
+                                <fb xml:id="fb-L68F2">
+                                    <f xml:id="f-L68F2"></f>
+                                </fb>
+                            </harm>
+                        </measure>
+                        <measure xml:id="measure-L70" n="9">
+                            <staff xml:id="staff-L70F5N1" n="1">
+                                <layer xml:id="layer-L70F5N1" n="1">
+                                    <note xml:id="note-L71F5" dur="4" oct="5" pname="c" accid.ges="s" />
+                                    <note xml:id="note-L73F5" dur="4" oct="4" pname="b" accid.ges="n" />
+                                    <note xml:id="note-L76F5" dur="4" oct="5" pname="c" accid.ges="s" />
+                                    <note xml:id="note-L77F5" dur="4" oct="4" pname="a">
+                                        <accid xml:id="accid-L77F5" accid="n" func="caution" />
+                                    </note>
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L70F4N1" n="2">
+                                <layer xml:id="layer-L70F4N1" n="1">
+                                    <note xml:id="note-L71F4" dur="4" oct="4" pname="e" accid.ges="n" />
+                                    <note xml:id="note-L73F4" dur="8" oct="4" pname="d" accid.ges="n" />
+                                    <beam xml:id="beam-L74F4-L75F4">
+                                        <note xml:id="note-L74F4" dur="16" oct="4" pname="f" accid.ges="s" />
+                                        <note xml:id="note-L75F4" dur="16" oct="4" pname="e" accid="s" />
+                                    </beam>
+                                    <note xml:id="note-L76F4" dur="4" oct="4" pname="f" accid.ges="s" />
+                                    <note xml:id="note-L77F4" dur="4" oct="4" pname="f" accid.ges="s" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L70F3N1" n="3">
+                                <layer xml:id="layer-L70F3N1" n="1">
+                                    <note xml:id="note-L71F3" dur="4" oct="4" pname="c" accid.ges="s" />
+                                    <beam xml:id="beam-L73F3-L74F3">
+                                        <note xml:id="note-L73F3" dur="8" oct="3" pname="f" accid.ges="s" />
+                                        <note xml:id="note-L74F3" dur="8" oct="3" pname="g" accid.ges="s" />
+                                    </beam>
+                                    <note xml:id="note-L76F3" dur="4" oct="3" pname="a" accid.ges="n" />
+                                    <note xml:id="note-L77F3" dur="4" oct="4" pname="c" accid.ges="s" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L70F1N1" n="4">
+                                <layer xml:id="layer-L70F1N1" n="1">
+                                    <beam xml:id="beam-L71F1-L72F1">
+                                        <note xml:id="note-L71F1" dur="8" oct="3" pname="a" accid.ges="n" />
+                                        <note xml:id="note-L72F1" dur="8" oct="3" pname="a" accid="s" />
+                                    </beam>
+                                    <note xml:id="note-L73F1" dur="4" oct="3" pname="b" accid.ges="n" />
+                                    <note xml:id="note-L76F1" dur="4" oct="3" pname="f" accid.ges="s" />
+                                    <beam xml:id="beam-L77F1-L78F1">
+                                        <note xml:id="note-L77F1" dur="8" oct="3" pname="f" accid.ges="s" />
+                                        <note xml:id="note-L78F1" dur="8" oct="3" pname="e" accid.ges="n" />
+                                    </beam>
+                                </layer>
+                            </staff>
+                            <fermata xml:id="fermata-L76F5" staff="1" startid="#note-L76F5" place="above" />
+                            <fermata xml:id="fermata-L76F4" staff="2" startid="#note-L76F4" place="above" />
+                            <fermata xml:id="fermata-L76F3" staff="3" startid="#note-L76F3" place="above" />
+                            <fermata xml:id="fermata-L76F1" staff="4" startid="#note-L76F1" place="above" />
+                            <harm xml:id="harm-L73F2" staff="4" tstamp="2.000000">
+                                <fb xml:id="fb-L73F2">
+                                    <f xml:id="f-L73F2"></f>
+                                </fb>
+                            </harm>
+                            <harm xml:id="harm-L74F2" staff="4" tstamp="2.500000">
+                                <fb xml:id="fb-L74F2">
+                                    <f xml:id="f-L74F2"></f>
+                                </fb>
+                            </harm>
+                        </measure>
+                        <measure xml:id="measure-L79" n="10">
+                            <staff xml:id="staff-L79F5N1" n="1">
+                                <layer xml:id="layer-L79F5N1" n="1">
+                                    <note xml:id="note-L80F5" dur="4" oct="4" pname="b" accid.ges="n" />
+                                    <note xml:id="note-L82F5" dur="4" oct="5" pname="c" accid.ges="s" />
+                                    <beam xml:id="beam-L83F5-L84F5">
+                                        <note xml:id="note-L83F5" dur="8" oct="5" pname="d" accid.ges="n" />
+                                        <note xml:id="note-L84F5" dur="8" oct="5" pname="c" accid.ges="s" />
+                                    </beam>
+                                    <note xml:id="note-L85F5" dur="4" oct="4" pname="b" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L79F4N1" n="2">
+                                <layer xml:id="layer-L79F4N1" n="1">
+                                    <note xml:id="note-L80F4" dur="4" oct="4" pname="f" accid.ges="s" />
+                                    <note xml:id="note-L82F4" dur="4" oct="4" pname="e" accid.ges="n" />
+                                    <note xml:id="note-L83F4" dur="4" oct="4" pname="d" accid.ges="n" />
+                                    <note xml:id="note-L85F4" dur="4" oct="4" pname="e" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L79F3N1" n="3">
+                                <layer xml:id="layer-L79F3N1" n="1">
+                                    <beam xml:id="beam-L80F3-L81F3">
+                                        <note xml:id="note-L80F3" dur="8" oct="3" pname="f" accid.ges="s" />
+                                        <note xml:id="note-L81F3" dur="8" oct="3" pname="g" accid.ges="s" />
+                                    </beam>
+                                    <note xml:id="note-L82F3" dur="4" oct="3" pname="a">
+                                        <accid xml:id="accid-L82F3" accid="n" func="caution" />
+                                    </note>
+                                    <note xml:id="note-L83F3" dur="4" oct="3" pname="a" accid.ges="n" />
+                                    <note xml:id="note-L85F3" dur="4" oct="3" pname="g" accid.ges="s" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L79F1N1" n="4">
+                                <layer xml:id="layer-L79F1N1" n="1">
+                                    <note xml:id="note-L80F1" dur="4" oct="3" pname="d" accid.ges="n" />
+                                    <note xml:id="note-L82F1" dur="4" oct="3" pname="c" accid.ges="s" />
+                                    <beam xml:id="beam-L83F1-L84F1">
+                                        <note xml:id="note-L83F1" dur="8" oct="2" pname="b" accid.ges="n" />
+                                        <note xml:id="note-L84F1" dur="8" oct="3" pname="c" accid.ges="s" />
+                                    </beam>
+                                    <note xml:id="note-L85F1" dur="4" oct="3" pname="d" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <harm xml:id="harm-L80F2" staff="4" tstamp="1.000000">
+                                <fb xml:id="fb-L80F2">
+                                    <f xml:id="f-L80F2"></f>
+                                </fb>
+                            </harm>
+                            <harm xml:id="harm-L82F2" staff="4" tstamp="2.000000">
+                                <fb xml:id="fb-L82F2">
+                                    <f xml:id="f-L82F2"></f>
+                                </fb>
+                            </harm>
+                            <harm xml:id="harm-L83F2" staff="4" tstamp="3.000000">
+                                <fb xml:id="fb-L83F2">
+                                    <f xml:id="f-L83F2"></f>
+                                </fb>
+                            </harm>
+                            <harm xml:id="harm-L85F2" staff="4" tstamp="4.000000">
+                                <fb xml:id="fb-L85F2">
+                                    <f xml:id="f-L85F2N1"></f>
+                                    <f xml:id="f-L85F2N2"></f>
+                                    <f xml:id="f-L85F2N3"></f>
+                                </fb>
+                            </harm>
+                        </measure>
+                        <measure xml:id="measure-L86" right="dbl" n="11">
+                            <staff xml:id="staff-L86F5N1" n="1">
+                                <layer xml:id="layer-L86F5N1" n="1">
+                                    <beam xml:id="beam-L87F5-L88F5">
+                                        <note xml:id="note-L87F5" dur="8" oct="4" pname="a" accid.ges="n" />
+                                        <note xml:id="note-L88F5" dur="8" oct="4" pname="f" accid.ges="s" />
+                                    </beam>
+                                    <note xml:id="note-L89F5" dur="4" oct="4" pname="g" accid.ges="s" />
+                                    <note xml:id="note-L90F5" dur="4" oct="4" pname="a" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L86F4N1" n="2">
+                                <layer xml:id="layer-L86F4N1" n="1">
+                                    <beam xml:id="beam-L87F4-L88F4">
+                                        <note xml:id="note-L87F4" dur="8" oct="4" pname="e" accid.ges="n" />
+                                        <note xml:id="note-L88F4" dur="8" oct="4" pname="f" accid.ges="s" />
+                                    </beam>
+                                    <note xml:id="note-L89F4" dur="4" oct="4" pname="e" accid.ges="n" />
+                                    <note xml:id="note-L90F4" dur="4" oct="4" pname="e" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L86F3N1" n="3">
+                                <layer xml:id="layer-L86F3N1" n="1">
+                                    <beam xml:id="beam-L87F3-L88F3">
+                                        <note xml:id="note-L87F3" dur="8" oct="3" pname="a" accid.ges="n" />
+                                        <note xml:id="note-L88F3" dur="8" oct="4" pname="d" accid.ges="n" />
+                                    </beam>
+                                    <note xml:id="note-L89F3" dur="4" oct="3" pname="b" accid.ges="n" />
+                                    <note xml:id="note-L90F3" dur="4" oct="4" pname="c" accid.ges="s" />
+                                </layer>
+                            </staff>
+                            <staff xml:id="staff-L86F1N1" n="4">
+                                <layer xml:id="layer-L86F1N1" n="1">
+                                    <beam xml:id="beam-L87F1-L88F1">
+                                        <note xml:id="note-L87F1" dur="8" oct="3" pname="c" accid.ges="s" />
+                                        <note xml:id="note-L88F1" dur="8" oct="3" pname="d" accid.ges="n" />
+                                    </beam>
+                                    <note xml:id="note-L89F1" dur="4" oct="3" pname="e" accid.ges="n" />
+                                    <note xml:id="note-L90F1" dur="4" oct="2" pname="a" accid.ges="n" />
+                                </layer>
+                            </staff>
+                            <fermata xml:id="fermata-L90F5" staff="1" startid="#note-L90F5" place="above" />
+                            <fermata xml:id="fermata-L90F4" staff="2" startid="#note-L90F4" place="above" />
+                            <fermata xml:id="fermata-L90F3" staff="3" startid="#note-L90F3" place="above" />
+                            <fermata xml:id="fermata-L90F1" staff="4" startid="#note-L90F1" place="above" />
+                            <harm xml:id="harm-L87F2" staff="4" tstamp="1.000000">
+                                <fb xml:id="fb-L87F2">
+                                    <f xml:id="f-L87F2"></f>
+                                </fb>
+                            </harm>
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
