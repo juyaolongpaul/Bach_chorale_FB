@@ -8,8 +8,8 @@
   <identification>
     <creator type="composer">Bach, Johann Sebastian</creator>
     <encoding>
-      <software>MuseScore 3.3.4</software>
-      <encoding-date>2019-12-16</encoding-date>
+      <software>MuseScore 3.3.3</software>
+      <encoding-date>2019-12-14</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="yes" value="yes"/>
@@ -42,7 +42,7 @@
     <lyric-font font-family="FreeSerif" font-size="11"/>
     </defaults>
   <credit page="1">
-    <credit-words default-x="1142.86" default-y="1507.4" justify="right" valign="bottom" font-size="12">Bach, Johann Sebastian</credit-words>
+    <credit-words default-x="1142.86" default-y="1532.4" justify="right" valign="bottom" font-size="12">Bach, Johann Sebastian</credit-words>
     </credit>
   <credit page="1">
     <credit-words default-x="600" default-y="1640" justify="center" valign="top" font-size="24">Verleih uns Frieden gnädiglich</credit-words>
@@ -113,7 +113,7 @@
             <left-margin>66.30</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <top-system-distance>202.60</top-system-distance>
+          <top-system-distance>177.60</top-system-distance>
           </system-layout>
         </print>
       <attributes>
@@ -348,7 +348,7 @@
             <left-margin>26.47</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <system-distance>92.13</system-distance>
+          <system-distance>104.63</system-distance>
           </system-layout>
         </print>
       <note default-x="102.39" default-y="-15.00">
@@ -635,7 +635,7 @@
             <left-margin>26.47</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <system-distance>92.13</system-distance>
+          <system-distance>104.63</system-distance>
           </system-layout>
         </print>
       <note default-x="106.19" default-y="-30.00">
@@ -5801,9 +5801,11 @@
       <figured-bass>
         <figure>
           <figure-number>6</figure-number>
+          <extend type="start" />
           </figure>
         <figure>
           <figure-number>4</figure-number>
+          <extend type="start" />
           </figure>
         </figured-bass>
       <note default-x="90.67" default-y="-330.00">
@@ -5816,6 +5818,14 @@
         <type>quarter</type>
         <stem>down</stem>
         </note>
+      <figured-bass>
+        <figure>
+          <extend type="stop" />
+          </figure>
+        <figure>
+          <extend type="stop" />
+          </figure>
+        </figured-bass>
       <note default-x="131.01" default-y="-330.00">
         <pitch>
           <step>E</step>
