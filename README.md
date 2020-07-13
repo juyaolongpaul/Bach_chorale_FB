@@ -5,7 +5,7 @@ Within the folders `FB_source/translated_kern` and `FB_source/translated_kern`, 
 
 The files used in the experiments of figured bass encoding and conversion can be found within the folder `FB_encoding_and_translation_experiment`.
 
-The metadata of these chorales can be found in `Reference Table.xlsx`.
+The metadata of these chorales can be found in `Reference Table.csv`.
 
 If you have any questions, please email to `yaolong.ju@mail.mcgill.ca`.
 
