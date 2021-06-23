@@ -11,7 +11,7 @@ Within the folders `FB_source/translated_kern` and `FB_source/translated_mei`, y
 
 The files used in the experiments of figured bass encoding and conversion can be found within the folder `FB_encoding_and_translation_experiment`.
 
-If you use this version of the files, it will be greatly appreciated if you prefer to the paper: __Ju, Yaolong__, Sylvain Margot, Cory McKay, and Ichiro Fujinaga. 2020. [Figured Bass Encodings for Bach Chorales in Various Symbolic Formats: A Case Study](http://www.music.mcgill.ca/~cmckay/papers/musictech/ju20figured.pdf). Presented at the *Music Encoding Conference*.
+If you use this version of the files, it will be greatly appreciated if you cite the paper: __Ju, Yaolong__, Sylvain Margot, Cory McKay, and Ichiro Fujinaga. 2020. [Figured Bass Encodings for Bach Chorales in Various Symbolic Formats: A Case Study](http://www.music.mcgill.ca/~cmckay/papers/musictech/ju20figured.pdf). Presented at the *Music Encoding Conference*.
 
 ## BCFB v2.0:
 
@@ -19,7 +19,7 @@ BCFB includes the complete 139 Johann Sebastian Bach chorales with figured bass 
 
 Within the folders `FB_source/musicXML_master`, `FB_source/translated_kern`, and `FB_source/translated_mei`, you can find 143 (more than 139) symbolic files. This is because BWV 10.07, BWV 161.06, BWV 38.06, and BWV 177.05 have two different versions based on NBA. 
 
-If you use this version of the files, it will be greatly appreciated if you refer to the paper: __Ju, Yaolong__, Sylvain Margot, Cory McKay, Luke Dahn, and Ichiro Fujinaga. 2020. Automatic Figured Bass Annotation Using the New Bach Chorales Figured Bass Dataset. In *Proceedings of the 21th International Society for Music Information Retrieval Conference*.
+If you use this version of the files, it will be greatly appreciated if you cite the paper: __Ju, Yaolong__, Sylvain Margot, Cory McKay, Luke Dahn, and Ichiro Fujinaga. 2020. Automatic Figured Bass Annotation Using the New Bach Chorales Figured Bass Dataset. In *Proceedings of the 21th International Society for Music Information Retrieval Conference*.
 
 The metadata of these chorales can be found in `Reference Table.csv`.
 
