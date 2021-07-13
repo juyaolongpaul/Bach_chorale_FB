@@ -1,6 +1,6 @@
 # Bach Chorales Figured Bass dataset (BCFB)
 
-BCFB currently has two releases: [v1.0](https://github.com/juyaolongpaul/Bach_chorale_FB/releases/tag/v1.0) and [v2.0](https://github.com/juyaolongpaul/Bach_chorale_FB/releases/tag/v2.0).
+BCFB currently has two releases: [v1.0](https://github.com/juyaolongpaul/Bach_chorale_FB/releases/tag/v1.0) and [v2.0](https://github.com/juyaolongpaul/Bach_chorale_FB/releases/tag/v2.0). The Version 2.0 is now archived at [Zenodo](https://zenodo.org/record/5084914#.YO4nSzPiuHv).
 
 ## BCFB v1.0:
 
